@@ -1,0 +1,189 @@
+
+.logo{
+    margin: 10x;
+    height: 100px;
+ }
+ 
+ .navbar {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: merianda;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+ }
+ .navbar-nav{
+     position: sticky;
+     color: transparent;
+ }
+ .navbar-nav a{
+     font-family: poppins;
+     font-size: 18px;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ .navbar-light .navbar-brand{
+     color: #2c3e50;
+     font-size: 25px;
+     text-transform: uppercase;
+     font-weight: bold;
+     letter-spacing: 2px;
+ }
+ .navbar-light .navbar-nav .nav-link{
+     color: #2c3e50;
+ }
+ .navbar-nav{
+     text-align: center;
+ }
+ .nav-link{
+     padding: .2rem 1rem;
+ }
+ .nav-link.active, .nav-link:focus{
+     color: #2c3e50 !important;
+ }
+ .w-100{
+     height: 100vh;
+ }
+ @media only screen and(max-width: 767px){
+     .navbar-nav.ml-auto{
+         background: rgba(0, 0, 0, 0.5);
+     }
+     .navbar-toggler{
+         padding: 1px 5px;
+         font-size: 18px;
+         line-height: 0.3;
+         background: black;
+     }
+ }
+ .main_container{
+     background: #ffffff;
+ }
+ .text{
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+ }
+
+ 
+ .text h4{
+     text-align: center;
+     font-weight: 800;
+ }
+ .text h1{
+     margin: 0;
+     padding: 0;
+     font-size: 60px;
+     font-weight: 800;
+     letter-spacing: 5px;
+     font-family: 'Roboto Slab', serif;
+ }
+ .text h4{
+    margin: 0;
+    padding: 0;
+    font-weight: 1000;
+ }
+
+ .animate__zoomInLeft {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+ .animate__zoomInRight {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+ 
+
+  .text1 ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+  .text1 ul h4{
+    margin: 0;
+    padding: 0;
+    font-weight: 1000;
+}
+  .text1 ul h6{
+    margin: 0;
+    padding: 0;
+    font-weight: 1000;
+}
+
+.container{
+    text-align: center;
+    
+}
+footer {
+    background: #111;
+    padding: 30px 0;
+    color: #fff;
+  }
+  
+  footer .copyright {
+    text-align: center;
+  }
+  
+  footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+  }
+  .font{
+      font-size: 20px;
+      font-weight: 80px;
+  }
+  i {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  

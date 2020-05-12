@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: sticky;
+}
+.header{
+    background: rgba(0, 0, 0, 0);
+    height: 100vh;
+}
+.video-background{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .video-background{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .video-background{
+        width: 100%;
+        height: auto;
+    }
+}
+.logo{
+    margin: 25px;
+    height: 100px;
+ }
+ .welcome-msg{
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    color: #B71C1C;
+    top: 100px;
+}
+.welcome-msg h1{
+    font-size: 60px;
+    font-weight: 100px;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    position: sticky;
+}
+.btn{
+    font-size: 18px;
+    color: #fff;
+    margin: 5px;
+    padding: 7px 22px;
+    text-decoration: none;
+    border: 1px solid coral;
+    border-radius: 25px;
+}
+.btn-subscribe{
+    background-color: coral;
+}
+.btn-gotosite:hover{
+    background-color: coral;
+    transition: 0.5s;
+}  
+ 
